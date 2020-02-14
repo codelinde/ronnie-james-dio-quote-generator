@@ -1,0 +1,138 @@
+.mainTitle {
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 6vw;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+body {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+	/* zero padding except 40 pixels on bottom */
+	background-image: url('https://res.cloudinary.com/cloudnine/image/upload/v1477008618/diobg3_qx5a5q.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.navbar-wrapper {
+	margin: 0;
+}
+
+.container {
+	margin-top: 0;
+}
+
+.divider {
+	height: 1px;
+	width: 33%;
+	display: block;
+	/* for use on default inline elements like span */
+	margin: auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+
+.quoteContain {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.quotePar {
+	font-family: 'Roboto', sans-serif, 'FontAwesome';
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.quoteBut {
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif, 'FontAwesome';
+	margin-right: 10px;
+}
+
+.btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+	outline: 0 none;
+}
+
+.btn-primary {
+	background: #ca0505;
+	color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background: #e33636;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+	background: #9f0404;
+	box-shadow: none;
+}
+
+.quotePar:before {
+	content: "\f10d";
+	font-family: FontAwesome;
+	size: 3vw;
+	float: left;
+	margin-right: 10px;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+	color: #fff;
+	background-color: #6d0303;
+	border-color: none;
+}
+
+.navbar,
+.navbar-default,
+.navbar-fixed-bottom {
+	background: none;
+	border: none;
+}
+
+.stickfoot {
+	margin-top: 10px;
+	color: #e5e5e5;
+	font-family: 'Open Sans', sans-serif, 'FontAwesome';
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #000;
+}
