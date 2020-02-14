@@ -1,2 +1,4 @@
-# ronnie-james-dio-quote-generator
- Generates a random Dio quote and gives the option to Tweet it
+# Ronnie James Dio Quote Generator 🤘
+This is a web app made in tribute to my favorite singer. It uses jQuery to display a random quote from a JavaScript array on user click, and integrates with Twitter's API to allow the user to Tweet whichever quote is currently generated.
+
+
